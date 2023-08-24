@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+.gradient-blue {
+  background: linear-gradient(to right, #36b8f4, #0379d9);
+  color: aliceblue;
+}
+.w-full {
+  width: 100%;
+}
+.w-content {
+  max-width: max-content;
+}
+.set-active {
+  color: #0379d9 !important;
+}
+.nav-li {
+  color: #2a353d;
+}
+.w-100 {
+  width: 100vw;
+}
+.hero {
+  background-image: url("./media/Main_IMG_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 1000px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.frame8 {
+    margin: 160px 0 0 100px;
+  }
+
+  .text-70 {
+    font-size: 70px;
+  }
+  .w-lorem {
+    min-width: 45%;
+  }
+  .mt-60 {
+    margin-top: 60px;
+  }
+  .custom-heading{
+    margin-top: 160px;
+  }
+  
+@media (width> 992px) {
+  .hero {
+    max-height: 1000px;
+  }
+  .frame8 {
+    margin: 30px 0 0 100px;
+  }
+  .text-70 {
+    font-size: 70px;
+  }
+  .w-lorem {
+    width: 45%;
+  }
+  .mt-60 {
+    margin-top: 60px;
+  }
+  .details{
+   
+    float: right;
+    clear: left;
+  }
+  .custom-heading{
+    margin-top: 160px;
+  }
+  
+  
+}
+@media (width<= 768px) {
+    .frame8 {
+        margin: 15px 0 0 50px;
+    }
+    .text-70 {
+        font-size: 50px;
+      }
+      .w-lorem {
+        width: 95%;
+      }
+      .mt-60 {
+        margin-top: 30px;
+      }
+      .custom-heading{
+        margin-top: 80px;
+      }
+      
+}
+@media (width<= 576px) {
+    .frame8 {
+        margin: 8px 0 0 25px;
+    }
+    .text-70 {
+        font-size: 30px;
+      }
+      .mt-60 {
+        margin-top: 15px;
+      }
+      .custom-heading{
+        margin-top: 40px;
+      }
+      
+     
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px;
+}
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.stroke-black {
+  -webkit-text-stroke: 0.5px black;
+}
+.w-lorem {
+  min-width: 45%;
+}
+.text-sm {
+  font-size: small;
+}
+.bg-blue{
+    background-color: #0379d9;
+}
+.chat{
+    position: fixed;
+    right: 9vw;
+    bottom: 5vh;
+    z-index: 100;
+}
